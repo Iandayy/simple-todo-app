@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { editorActions } from "../../../store/editor.slice";
 import { validActions } from "../../../store/valid-slice";
+import Button from "../../ui/button/Button";
 
 import TodoItem from "./TodoItem";
 
@@ -80,7 +81,7 @@ const Editor = () => {
           />
           {error && <p>date</p>}
         </div>
-        <button type="submit">Submit</button>
+        <Button>Submit</Button>
       </form>
       {count > 0 &&
         todos.map((todo) => (
