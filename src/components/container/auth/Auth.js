@@ -1,6 +1,9 @@
+import "./Auth.module.css";
+
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { authActions } from "../../../store/auth-slice";
+import Button from "../../ui/button/Button";
 
 const Auth = () => {
   const [input, setInput] = useState({
@@ -46,7 +49,7 @@ const Auth = () => {
             onChange={inputHandler}
           />
         </div>
-        <button>Login</button>
+        <Button>Login</Button>
       </form>
     </section>
   );
