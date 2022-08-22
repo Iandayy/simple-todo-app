@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Go see LipJ",
+      "date": "2022-07-30"
+    },
+    {
+      "id": 2,
+      "title": "Listen to Monica's advice",
+      "date": "2022-06-22"
+    }
+  ]
+}
